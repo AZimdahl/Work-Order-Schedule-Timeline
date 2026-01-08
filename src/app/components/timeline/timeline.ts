@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 
+import { workOrders } from './timeline.store';
+
 @Component({
   selector: 'app-timeline',
   imports: [],
@@ -7,5 +9,5 @@ import { Component } from '@angular/core';
   styleUrl: './timeline.scss',
 })
 export class Timeline {
-
+  workOrders = workOrders;
 }

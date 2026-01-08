@@ -1,4 +1,4 @@
-interface WorkOrderDocument {
+export interface WorkOrderDocument {
   docId: string;
   docType: 'workOrder';
   data: {
